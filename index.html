@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ticktask</title>
+  <link rel="stylesheet" href="assets/CSS/style.css">
+  <link rel="shortcut icon" href="assets/Img/favicon_io/favicon.ico" type="image/x-icon">
+</head>
+<body>
+  <div class="header">
+    <h1>Ticktask</h1>
+    <hr>
+  </div>
+
+  <div class="entry-box">
+    <div class="input-container">
+      <label for="tarefa">Adicione sua tarefa</label>
+      <input type="text" id="tarefa" placeholder="Digite sua tarefa..."> 
+      <input type="date" id="data">
+      <button id="btnAdd">Salvar</button>
+    </div>
+</div>
+<hr>
+  <div class="tarefas-container">
+    
+    <div class="pendentes-container">
+        <h2>Tarefas Pendentes</h2>
+        <ul id="lista-pendentes"></ul>
+    </div>
+
+    <div class="concluida-container">
+        <h2>Tarefas Concluídas</h2>
+        <ul id="lista-concluidas"></ul>
+    </div>
+  </div>
+
+  <script type="module" src="assets/Js/script.js"></script>
+</body>
+</html>
